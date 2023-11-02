@@ -33,6 +33,8 @@
     - ``cmake -S .. -G "Visual Studio 17 2022"``
   - If your team is using Visual Studio Code 2019
     - ``cmake -S .. -G "Visual Studio 16 2019"``
+  - If your team is using MacOS
+    - Stop here and follow the guide on Piazza.
 - After this has run, you should see a file in the build folder called **Wolfie3D.sln**
 - Open this file with Visual Studio. First you will need to make sure all necessary projects in the solution get built (shaders and Wolfie3D). To do this, in the VS Solution Explorer, right-click Solution Wolfie3D at the top and click Build Solution
   - If you get any errors during the build, make sure you have the latest version of the Vulkan SDK installed
