@@ -12,7 +12,6 @@
 - Create a new directory where you will work called HW3
 - Open Powershell or Git Bash and navigate to your HW3 directory
 - Clone the Repo ``git clone https://github.com/TheMcKillaGorilla/381_F23_HW3 .`` - this will put the project in your current directory, i.e. HW3
-- Switch to the HW branch ``git switch HW``
 - Pull all the dependencies into the project ``git submodule update --init --recursive``
   - If you get the following errors:
   ``fetch-pack: unexpected disconnect while reading sideband packet``
